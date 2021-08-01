@@ -44,7 +44,7 @@ app.get("/dados", (req, res) => {
             throw err
 
         // db = DATABASE
-        db.query('SELECT FIRST 10 * FROM E_LOGS', function (err, result) {
+        db.query('SELECT FIRST 10 * FROM LOGS', function (err, result) {
             // IMPORTANT: close the connection
             db.detach()
 
