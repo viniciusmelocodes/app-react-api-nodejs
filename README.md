@@ -1,17 +1,17 @@
 # api-nodejs
-https://www.npmjs.com/package/node-firebird 
-```
-npm i node-firebird
-```
 C:\Program Files\Firebird\Firebird_3_0\firebird.conf:
 ```
 AuthServer = Srp, Legacy_Auth
 WireCrypt = Disabled
 UserManager = Legacy_UserManager
 ```
+Install:
+```
+npm install
+```
 Run:
 ```
-node .\app.js
+nodemon 
 ```
 
 # app-react
