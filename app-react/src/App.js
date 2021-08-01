@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 const uri = 'http://localhost:8080/';
-const query = '';
+const query = 'dados';
 
 var dados = [];
 
