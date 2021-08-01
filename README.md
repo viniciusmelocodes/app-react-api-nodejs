@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# api-nodejs
+https://www.npmjs.com/package/node-firebird 
+```
+npm i node-firebird
+```
+C:\Program Files\Firebird\Firebird_3_0\firebird.conf:
+```
+AuthServer = Srp, Legacy_Auth
+WireCrypt = Disabled
+UserManager = Legacy_UserManager
+```
+Run:
+```
+node .\app.js
+```
+
+# app-react
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
