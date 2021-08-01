@@ -1,7 +1,29 @@
+import { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const uri = 'http://localhost:8080/';
+const query = '';
+
+var dados = [];
+
 function App() {
+  const chamarAPI = async () => {
+    try {
+      const response = await fetch(uri + query, { mode: 'cors' });
+      const data = await response.json();
+      dados = data
+      console.log({ dados })
+    }
+    catch (e) {
+      console.log(e)
+    }
+  }
+
+  useEffect(() => {
+    chamarAPI()
+  }, [])
+
   return (
     <div className="App">
       <header className="App-header">
